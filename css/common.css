@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  --main-text-color: #333333;
+  --brand-color: #D2CBEF;
+  --background-color-dark: #E7FBFF;
+  --background-color-light: #FEEBE0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+button {
+  border: none;
+}
+
+body {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: var(--main-text-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+.title {
+  font-family: 'Ultra', serif;
+}
+
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 479.98px) {}
