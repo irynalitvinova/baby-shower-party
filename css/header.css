@@ -17,7 +17,7 @@
 
 .menu-list {
   display: flex;
-  gap: 40px;
+  column-gap: 40px;
   padding-top: 40px;
 }
 
@@ -129,17 +129,16 @@
   .menu-list {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    row-gap: 20px;
     align-items: center;
     height: auto;
   }
 
   .header-logo {
     z-index: 10;
-
   }
 
   .logo-img {
-    width: 50%;
+    width: 40%;
   }
 }

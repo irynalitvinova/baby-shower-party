@@ -30,12 +30,18 @@
 
 @media (max-width: 991.98px) {
   .promo-content {
-    padding-top: 240px;
+    padding-top: 210px;
     font-size: 18px;
   }
 
   .promo-title {
     font-size: 48px;
     line-height: 57px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .promo {
+    height: 660px;
   }
 }
