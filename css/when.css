@@ -1,0 +1,88 @@
+.when {
+  background-image: url(../img/when/when-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 238px;
+}
+
+.when-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.countdown {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.countdown-item {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: var(--brand-color);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-item-numbers {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (max-width: 991.98px) {
+  .when-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .when {
+    padding-bottom: 150px;
+  }
+
+  .countdown {
+    gap: 10px;
+  }
+
+  .countdown-item {
+    width: 100px;
+    height: 100px;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .when {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .when-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .countdown {
+    gap: 2px;
+  }
+
+  .countdown-item {
+    width: 64px;
+    height: 64px;
+  }
+
+  .countdown-item-numbers {
+    font-size: 20px;
+      }
+
+  .countdown-item-time {
+    font-size: 11px;
+    line-height: 20px;
+  }
+}
