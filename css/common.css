@@ -52,11 +52,19 @@ body {
 
 .title {
   font-family: 'Ultra', serif;
+  font-weight: 400;
 }
 
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+  body {
+    font-size: 16px;
+   
+  }
+}
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+ 
+}
 
 @media (max-width: 479.98px) {}
