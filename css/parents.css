@@ -13,19 +13,13 @@
 
 .parents-container {
   max-width: 930px;
-
-
 }
 
 .parents-inner {
-
   display: flex;
   justify-content: space-between;
   gap: 20px;
-
 }
-
-.parents-img {}
 
 .parents-content {
   display: flex;
@@ -37,8 +31,6 @@
   font-size: 40px;
   line-height: 51px;
 }
-
-.parents-text {}
 
 .parents-congrats {
   font-weight: 700;
