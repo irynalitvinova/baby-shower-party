@@ -1,0 +1,41 @@
+.footer {
+  background-color: var(--background-color-light);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-info {
+  text-align: center;
+  margin-top: -75px;
+}
+
+.footer-info-text {
+  margin-bottom: 22px;
+}
+
+.footer-phone {
+  color: var(--brand-color);
+  font-weight: 700;
+}
+
+.footer-phone:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+  .footer-logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 68px;
+  }
+
+  .footer-info {
+    margin-top: 0;
+  }
+
+  .footer-info-text {
+    margin-bottom: 0;
+  }
+}
