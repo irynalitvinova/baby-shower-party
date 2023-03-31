@@ -1,0 +1,39 @@
+.where {
+  background-color: var(--background-color-dark);
+  padding-top: 100px;
+}
+
+.where-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.where-address {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.where-map {
+  filter: grayscale(100%);
+}
+
+.where-map-iframe {
+  width: 100%;
+  height: 350px;
+}
+
+@media (max-width: 991.98px) {
+  .where-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .where {
+    padding-top: 50px;
+  }
+
+  .where-title {
+    font-size: 20px;
+  }
+}
